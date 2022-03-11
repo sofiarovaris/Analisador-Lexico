@@ -1,0 +1,6 @@
+int main(){
+    int a , b;
+    a = b + 10;
+    b = b - 2.3;
+    printf("esse eh o valor de a %d ", a);
+}
