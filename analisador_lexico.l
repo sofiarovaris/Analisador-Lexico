@@ -66,7 +66,7 @@ simbolos [(){};]
 ("main")                                 										printf("Tok_main\n");
 ("void")                                 										printf("Tok_void\n");
 ("return")                               										printf("Tok_return\n"); 
-("while")  									                                   	printf("Tok_while\n"); 
+("while")  				     				                                   	printf("Tok_while\n"); 
 
  /* Erro Léxico associado a classe de tokens: Numero */
 ({numero})+({letra}|{caractere}|"_")+(".")?({numero})*                         	printf("Numero mal formado na linha %d\n", cont);
